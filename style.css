@@ -1,0 +1,522 @@
+.page {
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+
+    color: #000000;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.container {
+    margin: 0 auto;
+
+    max-width: 1200px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    padding: 20px 0 20px 0;
+
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+}
+
+.header__pic img{
+    border-radius: 93px;
+}
+
+
+.header__title {
+    text-align: center;
+
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+.header__speciality {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #CECACA;
+}
+
+.main__wrap {
+    display: flex;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info__wrap {
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 15px;
+
+    width: 40%;
+}
+
+.info__title {
+    padding: 5px 0 0 25px;
+    
+    font-family: "Montserrat";
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.info__contacts {
+    width: 99%;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+}
+
+.info__social {
+    width: 99%;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+}
+
+.info__lang {
+    width: 99%;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+}
+
+.info__list {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.info__item {
+    position: relative;
+    padding: 8px;
+    padding-left: 10px;
+
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FAFAFA;
+}
+
+.info__item--phone::before {
+    position: absolute;
+    content: "";
+
+    top: 6px;
+    left: -22px;
+
+    background-image: url("img/phone.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 24px;
+    height: 24px;
+}
+
+.info__item--email::before {
+    position: absolute;
+    content: "";
+
+    top: 2px;
+    left: -25px;
+
+    background-image: url("img/mail.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 24px;
+    height: 24px;
+}
+
+.info__item--city::before {
+    position: absolute;
+    content: "";
+
+    top: 2px;
+    left: -19px;
+
+    background-image: url("img/loc.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 24px;
+    height: 24px;
+}
+
+.info__item--discord::before {
+    position: absolute;
+    content: "";
+
+    top: 2px;
+    left: -19px;
+
+    background-image: url("img/discord.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 24px;
+    height: 24px;
+}
+
+.info__item--github::before {
+    position: absolute;
+    content: "";
+
+    top: 2px;
+    left: -19px;
+
+    background-image: url("img/github.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 24px;
+    height: 24px;
+}
+
+.info__disc {
+    position: relative;
+
+    padding-left: 55px;
+    padding-bottom: 20px;
+
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FAFAFA;
+}
+
+.info__disc::before {
+    position: absolute;
+    content: "";
+
+    top: -3px;
+    left: 23px;
+
+    background-image: url("img/Languages.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 24px;
+    height: 24px;
+}
+
+.info__hobbies {
+    width: 99%;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+}
+
+.info__list--hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    padding: 35px 0 15px 0;
+}
+
+.info__item--hiking::before {
+    position: absolute;
+    content: "";
+
+    top: -45px;
+    left: 8px;
+
+    background-image: url("img/Hiking.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 46px;
+    height: 46px;
+}
+
+.info__item--reading::before {
+    position: absolute;
+    content: "";
+
+    top: -41px;
+    left: 15px;
+
+    background-image: url("img/reading.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 46px;
+    height: 46px;
+}
+
+.info__item--traveling::before {
+    position: absolute;
+    content: "";
+
+    top: -40px;
+    left: 16px;
+
+    background-image: url("img/icons8-вокруг-света.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 46px;
+    height: 46px;
+}
+
+
+.prof {
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 15px;
+
+    max-width: 1367px;
+
+}
+
+.section__title {
+    box-sizing: border-box;
+
+    text-align: center;
+    padding-top: 3px;
+
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+    width: 154px;
+    height: 38px;
+
+    background-color: #545454;
+    border-radius: 5px;
+}
+
+.section__designation {
+    text-align: start;
+    
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.skills__list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    list-style: none;
+
+    padding: 0;
+}
+
+.skills__item {
+    width: 56px;
+    height: 56px;
+}
+
+.skills__item--Git {
+    background-image: url("img/git.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.skills__item--HTML {
+    background-image: url("img/HTML5.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.skills__item--CSS {
+    background-image: url("img/css3.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+
+.skills__item--figma {
+    background-image: url("img/figma.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.skills__item--js {
+    background-image: url("img/Javascript.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+
+
+.education__sign {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #73808D;
+}
+
+
+.courses__list {
+    padding: 0;
+
+    list-style: none;
+}
+
+.courses__item  {
+    padding: 0;
+}
+
+.courses__item span {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #73808D;
+}
+
+.code__title {
+    width: 198px;
+    height: 38px;
+
+    background-color: #545454;
+    border-radius: 5px;
+}
+
+.code__code {
+    display: block;
+    padding: 15px;
+    background-color: #E4E3E1;
+    color: #5f5e4e;
+
+    overflow-x: auto;
+}
+
+.code__script--keyword{
+    color: #b294bb;
+}
+
+.code__script--def {
+    color: #de935f;
+}
+
+.code__script--variable {
+    color: #89b6c5;
+}
+
+.progects__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.progects__item {
+    padding: 5px;
+}
+
+.footer {
+    margin-top: 15px;
+    padding: 5px;
+
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;  
+}
+
+.footer__list{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+.footer__item{
+    padding: 0;
+}
+
+.footer__item p {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.footer__link {
+    position: relative;
+}
+
+.footer__link--git::before {
+    position: absolute;
+    content: "";
+
+    top: 20px;
+    left: 0;
+
+    background-image: url("img/github-50.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 50px;
+    height: 50px;
+}
+
+.footer__link--rs::before {
+    position: absolute;
+    content: "";
+
+    top: 20px;
+    left: 0;
+
+    background-image: url("img/rs_school_js.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 100px;
+    height: 100px;
+}
