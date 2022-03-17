@@ -1,6 +1,6 @@
 # Tumanova Margarita
 
-28 years old (born January 24, 1993), 
+29 years old (born January 24, 1993), 
 Higher education,
 Yekaterinburg.
 
@@ -45,6 +45,7 @@ function multiply (a, b){
 
 ## Projects:
 - [CV](https://TumMar.github.io/rsschool-cv)
+
 
  [Github](https://github.com/TumMar)
  
